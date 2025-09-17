@@ -20,14 +20,12 @@ const Hero = () => {
 
         <div className="">
           <h1 className="font-bold md:leading-14 leading-8 md:text-[56px] text-[28px] mt-6">
-            Hi, I&apos;m abdulkafi nur  .
+            Hi, I&apos;m Abdulkafi Nirig  .
             <br /> Software Engineer
           </h1>
           <h3 className="text-gray-600 mt-4 flex-wrap md:px-0 px-4">
-            Relentless self-taught developer, passionate about crafting Next.js
-            solutions,
-            <br />
-            and driven to grow in tech.
+            Turning Complex Problems Into Elegant Software
+I design and build applications that are fast, scalable, and intuitive. My focus is on clean architecture, strong performance, and user experiences that feel effortless across platforms.
           </h3>
         </div>
 

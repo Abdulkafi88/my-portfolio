@@ -1,32 +1,17 @@
 export const projects = [
   {
-    name: "Notion App Clone",
-    slug: "Notion",
-    show: "Implemented real-time collaboration, user typing indicators, OpenAI-like cloudflare language, and OpenAI chat integration, worked with Liveblocks and Firebase",
-    desc: "A collaborative document editing app similar to Notion, featuring real-time user presence, typing indicators, and AI-powered chat functionality using cloudflare language and OpenAI integration.",
-    lang: [
-      "Next.js",
-      "Clerk",
-      "Tailwind CSS",
-      "Shadcn",
-      "Liveblocks",
-      "Firebase",
-      "Hono",
-      "Cloudflare Workers",
-      "OpenAI API",
-      "Vercel",
-    ],
-    img: "notionclone.png",
-    link: "https://notion-clone-psi-gray.vercel.app/",
-    git: "https://github.com/SteeveSticks/NOTION-CLONE",
-    problem:
-      "Many collaborative tools lack seamless real-time interaction and advanced AI assistance, making it hard for teams to work efficiently on documents. Users often face delays in seeing edits or lack smart suggestions, reducing productivity.",
-    solution:
-      "I built a Notion-like clone using React with TypeScript, integrating Liveblocks for real-time collaboration and typing indicators, allowing users to see each other's edits instantly. Clerk handles user authentication and Firebase handles document storage. I added an OpenAI-like chat feature using Cloudflare Workers for language processing, enabling smart document suggestions and conversations. This solution enhances teamwork and productivity, built with a focus on real-time performance and AI-driven assistance.",
-  },
-  {
-    name: "Halamd🍀",
-    slug: "ai-mood-stylist",
+  name: "E&F Sports",
+  slug: "e-and-f",
+  show: "Community sports website with mobile first schedules, simple team sign up, clear calls to action",
+  desc: "A responsive site for a non profit league that centralizes game schedules, registration, donations, and updates. Focus on clear navigation, fast load, and accessibility.",
+  lang: ["HTML", "CSS", "JavaScript"],
+  img: "E-F.png", 
+  link: "https://abdulkafi88.github.io/sports-/", 
+  git: "https://github.com/Abdulkafi88/ef-site",
+  problem: "Parents, players, and coaches could not find schedules quickly and registration required slow email back and forth, which lowered turnout.",
+  solution: "I built a single source of truth with mobile friendly schedule pages, a guided sign up form with validation, and auto routed email notifications, which reduced admin work and helped users finish in one visit."
+},
+{   slug: "ai-mood-stylist",
     show: "Built with Next.js and Tailwind, leveraging OpenAI’s GPT and DALL·E 3 to suggest and visualize stylish outfits tailored to a user’s mood.",
     desc: "Halamd is an AI Mood Stylist your personal, intelligent fashion companion that curates outfits based on your mood, style preferences, and the occasion. Using advanced AI and machine learning, it analyzes your emotional state (through quick mood inputs or even image analysis) and suggests clothing combinations that not only match your vibe but also boost your confidence. Whether you’re feeling bold, relaxed, romantic, or ready to conquer the world, AI Mood Stylist ensures you step out looking as good as you feel — every single day.",
     lang: [

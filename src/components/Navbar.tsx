@@ -45,7 +45,7 @@ const Navbar = () => {
               <Link
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/SteeveSticks"
+                href="https://github.com/Abdulkafi88"
               >
                 <FiGithub className="size-6 text-white hover:text-white/90 cursor-pointer mr-2" />
               </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                 download
                 target="_blank"
                 rel="noopener noreferrer"
-                href="/Resume (7).pdf"
+                href="/Abdulkafi.pdf"
               >
                 <IoDocumentTextOutline className="size-6 text-white hover:text-white/90 cursor-pointer" />
               </a>

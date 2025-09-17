@@ -13,61 +13,17 @@ const About = () => {
         <div className="">
           <div className="font-bold text-3xl text-black/90">About</div>
           <p>
-            I&apos;m Adebanjo Stephen, a passionate 16-year-old self-taught
-            Nigerian software engineer and an aspiring AI & Machine Language
-            Expert with over 1yr +2 months of experience and a strong drive for
-            building impactful web experiences.
-          </p>
-          <p className="mt-2">
-            At 16, I’ve already built and shipped real-world products—from alarm
-            apps to AI products and I’m just getting started. I love solving
-            real problems through tech, learning fast, and creating beautiful,
-            high-performing user interfaces.
-          </p>
-          <p className="mt-2">
-            I’m currently working with{" "}
-            <Link
-              href="https://www.linkedin.com/company/externhq/posts/?feedView=all"
-              className="hover:text-green-900"
-            >
-              <strong>Extern</strong>
-            </Link>{" "}
-            on advanced full-stack projects, diving deeper into AI, and actively
-            preparing to land a role at a world-class company like{" "}
-            <strong>Google</strong>. I’m also open to freelance and
-            collaboration opportunities.
-          </p>
-          <p className="mt-2">
-            I’m also actively building my presence in the tech community. With
-            over <strong>200+ followers on X, </strong>
-            I’ve learned and connected with top minds, mentors in the indie
-            hacker and maker space — including people like{" "}
-            <Link href="https://x.com/marc_louvion">
-              <strong>@Marc Lou,</strong>
-            </Link>{" "}
-            <Link href="https://x.com/johnrushx">
-              <strong>@johnrushx,</strong>
-            </Link>{" "}
-            <Link href="https://x.com/tdinh_me">
-              <strong>@tdinh_me,</strong>
-            </Link>{" "}
-            and{" "}
-            <Link href="https://x.com/levelsio">
-              <strong>@levelsio.</strong>
-            </Link>{" "}
-            Their guidance and content have helped shape how I think about
-            product-building, growth, and shipping fast.
-          </p>
+            I&apos;I am a software engineer driven by a passion for building scalable and impactful technology. My experience spans multiple programming languages, frameworks, and cloud platforms, allowing me to design and deliver full stack applications that are both efficient and maintainable. I thrive on transforming complex business requirements into clean, well architected solutions that balance performance, security, and user experience. Whether developing new features, optimizing system performance, or collaborating with cross functional teams, I approach every challenge with curiosity and a commitment to continuous improvement. My goal is to create software that not only meets technical specifications but also empowers users and drives meaningful results for organizations.
+            </p>
           <ul className="list-disc mt-3 text-gray-700">
             <li>Shipped real-world products (alarm apps, AI tools)</li>
-            <li>1+ year experience in full-stack development</li>
-            <li>Active in the indie hacker & maker space</li>
+            <li>3+ year experience in full-stack development</li>
           </ul>
         </div>
       </div>
 
       <Link
-        href="https://www.linkedin.com/in/stephen-adebanjo-82a6ba359/"
+        href="https://www.linkedin.com/in/abdulkafi-nirig/"
         target="_blank"
       >
         <div className="flex justify-center mt-10 px-4">
@@ -78,7 +34,7 @@ const About = () => {
             className="py-2 px-3 bg-white shadow-sm rounded-sm w-fit"
           >
             <Image
-              src="/img/profile-pic.jpg"
+              src="/img/me.jpg"
               width={200}
               height={200}
               alt="profile image"
@@ -103,3 +59,4 @@ const About = () => {
 };
 
 export default About;
+

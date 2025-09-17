@@ -14,7 +14,7 @@ const Project = () => {
       <div className="mt-10 py-2 px-1 grid font-bold md:text-3xl text-3xl">
         <div className="text-center prose">
           <h1 className="text-[40px] max-md:text-[30px]">
-            Shipped Projects (Last 8 Months).
+            Project shipped .
           </h1>
         </div>
 
