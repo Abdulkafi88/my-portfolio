@@ -11,50 +11,48 @@ export const projects = [
   problem: "Parents, players, and coaches could not find schedules quickly and registration required slow email back and forth, which lowered turnout.",
   solution: "I built a single source of truth with mobile friendly schedule pages, a guided sign up form with validation, and auto routed email notifications, which reduced admin work and helped users finish in one visit."
 },
-{   slug: "ai-mood-stylist",
-    show: "Built with Next.js and Tailwind, leveraging OpenAI’s GPT and DALL·E 3 to suggest and visualize stylish outfits tailored to a user’s mood.",
-    desc: "Halamd is an AI Mood Stylist your personal, intelligent fashion companion that curates outfits based on your mood, style preferences, and the occasion. Using advanced AI and machine learning, it analyzes your emotional state (through quick mood inputs or even image analysis) and suggests clothing combinations that not only match your vibe but also boost your confidence. Whether you’re feeling bold, relaxed, romantic, or ready to conquer the world, AI Mood Stylist ensures you step out looking as good as you feel — every single day.",
-    lang: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS 4",
-      "Framer Motion",
-      "OpenAI",
-      "State Management & UX",
-      "Vercel",
-      "Github",
-    ],
-    img: "halamd-image.png",
-    video: "halamd-demo.mp4",
-    link: "https://halamdcom.vercel.app/",
-    git: "https://github.com/SteeveSticks/Assistly-Ai-Agent-Bot",
-    problem:
-      "Choosing what to wear can be stressful and time-consuming, especially when you want your outfit to reflect your mood, style, and the occasion. Many people struggle to find creative, stylish, and mood-appropriate outfit ideas without spending hours browsing.",
-    solution:
-      "We built AI Mood Stylist — an AI-powered web app that uses OpenAI’s GPT and DALL·E 3 to instantly suggest and visualize outfits tailored to a user’s gender and mood. The app provides detailed style recommendations and generates photorealistic outfit images, making it easy for anyone to dress confidently and effortlessly.",
-  },
+
+{
+  name: "HoopCast",
+  slug: "hoopcast",
+  show: "Built with React and Tailwind, shows upcoming NBA games, lets users save favorites, and uses Firebase for login",
+  desc: "HoopCast is a React app that displays upcoming NBA games, allows fans to save games to a personal list, and supports secure sign in with Firebase Auth. Saved games are stored in Cloud Firestore so they persist across devices. Designed and developed entirely by Abdulkafi.",
+  lang: [
+    "React.js",
+    "TypeScript",
+    "Tailwind CSS 4",
+    "Firebase Auth",
+    "Cloud Firestore",
+    "Vite",
+    "GitHub"
+  ],
+  img: "HoopCast.png",
+  link: "https://abdulkafi88.github.io/HoopCast/Home",
+  git: "https://github.com/Abdulkafi88/HoopCast",
+  problem: "NBA schedules change often, users need a fast way to see games and keep track of the ones they care about",
+  solution: "I built a clean dashboard that pulls upcoming NBA games, supports search and filters, and lets users sign in with Firebase to bookmark games, bookmarks sync to Firestore and are available on any device"
+}
+,
   {
-    name: "StartupFounder",
-    slug: "startup-founder",
-    show: "Sanity used for dynamic sections, animation with Framer Motion aligning with my goal to empower developers in London’s tech scene",
-    desc: "A beautifully designed startup platform for developers to showcase their startups and for users to discover innovative tech projects. Built using modern frameworks for performance and scalability.",
-    lang: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS 4",
-      "Sanity",
-      "Sentry",
-      "Zod",
-      "NextAuth",
-    ],
-    img: "startupFounderimg.png",
-    link: "https://startup-founders-app.vercel.app/",
-    git: "https://github.com/SteeveSticks/STARTUP-FULLSTACK-APP",
-    problem:
-      "Through conversations with developers and my own experience, I identified a gap in the tech ecosystem: many developers lack a dedicated platform to showcase their startups, making it hard to attract collaborators or investors. This limits innovation and networking, especially in vibrant tech hubs like London, where I aim to contribute.",
-    solution:
-      "I created StartupFounder to empower developers by providing a scalable platform to present their projects. Using Next.js and TypeScript, I built a performant, type-safe application, with Tailwind CSS 4 for a visually appealing UI. Sanity CMS enables dynamic content management, allowing developers to update startup profiles easily. Framer Motion adds engaging animations to enhance user experience, while NextAuth secures user logins. Sentry monitors errors to ensure reliability, and Zod validates data inputs for robustness. The platform’s launch attracted 10+ users in two months, proving its value in fostering tech collaboration.",
-  },
+  name: "CodeBook",
+  slug: "codebook",
+  show: "Built with React and Tailwind, provides an eBook store where users can log in, buy books, and save them to a personal library",
+  desc: "CodeBook is an eBook web app where users can sign in with Firebase, browse and purchase books, and save titles to a personal library for easy access later. Built entirely by Abdulkafi using React.js, Tailwind CSS, and Firebase for authentication and database storage.",
+  lang: [
+    "React.js",
+    "Tailwind CSS 4",
+    "Firebase Auth",
+    "Cloud Firestore",
+    "Vite",
+    "GitHub"
+  ],
+  img: "CodeBook.png",
+  link: "https://abdulkafi88.github.io/CodeBook/",
+  git: "https://github.com/Abdulkafi88/CodeBook",
+  problem: "Finding and saving eBooks across devices can be inconvenient without a central account system.",
+  solution: "I built CodeBook to let users securely log in with Firebase, browse and purchase books, and maintain a synced personal library stored in Firestore so favorites are always available."
+}
+,
   {
     name: "Job Portal",
     slug: "job-portal",
