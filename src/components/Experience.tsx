@@ -29,33 +29,33 @@ const Experience = () => {
 
           <div className="md:flex md:items-center md:justify-between grid mt-8">
             <span className="md:text-sm text-[13px] text-gray-500 px-2 mb-2">
-              2025-Present
+              July-2024-September-2024
             </span>
 
             <div className="flex-center">
               <h1 className="text-gray-500 max-sm:hidden">
-                Internship Frontend Developer
+                Software Engineering Fellow
               </h1>
               <Button className="bg-[#EEF4FF] text-[#3B82F6] ml-2">
                 <Star />
-                Bright Sparks Academy
+                Headstarter AI
               </Button>
             </div>
           </div>
 
           <div className="md:flex md:items-center md:justify-between grid mt-8">
             <span className="md:text-sm text-[13px] text-gray-500 px-2 mb-2">
-              2025-Present
+              March-2024-May-2024
             </span>
 
             <div className="flex-center">
               <h1 className="text-gray-500 max-sm:hidden">
-                Externship AI & Machine Learning
+                Software engineer
               </h1>
               <Button className="bg-[#EEF4FF] text-[#3B82F6] ml-2">
                 <Star />
                 <span className="text-black">
-                  Ex<span className="text-green-800">tern</span>
+                  Keelworks<span className="text-green-800">Foundation</span>
                 </span>
               </Button>
             </div>
