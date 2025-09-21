@@ -65,9 +65,8 @@ const Experience = () => {
         <div className="text-wrap prose border p-2 mt-14 rounded-sm shadow-sm">
           <Star className="text-[#3B82F6] mb-2" />
           <span className="bg-[#EEF4FF] text-[#3B82F6]">
-            As a self-taught dev, I’ve built impactful projects like
-            StartupFounder and a panic alarm app, solving real problems with
-            Next.js and TypeScript.
+            I’m a computer science student and developer who has built real-world projects like HoopCast (an NBA schedule and trivia app) , a non-profit event-registration site , and feature-rich messaging tools using React
+            , Next.js , TypeScript , and MongoDB.
             <br />
             I&apos;m actively seeking opportunities to gain hands-on experience,
             contribute to meaningful products, and grow professionally.{" "}

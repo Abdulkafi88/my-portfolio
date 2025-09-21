@@ -11,22 +11,15 @@ const Footer = () => {
 
       <div className="mt-6 text-center">
         <span className="text-gray-600 text-[16px] tracking-normal">
-          Copyright@2025AdebanjoStephen
+          Copyright@2025AbdulkafiNirig
         </span>
 
         <div className="flex items-center justify-center gap-6 mt-2">
-          <a
-            rel="noreferrer"
-            target="_blank"
-            href="https://x.com/AdebanjoSt63916"
-          >
-            <FaXTwitter className="size-5 text-gray-700 hover:text-gray-600 cursor-pointer" />
-          </a>
 
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/SteeveSticks"
+            href="https://github.com/Abdulkafi88"
           >
             <FiGithub className="size-5 text-gray-70 hover:text-gray-600 cursor-pointer" />
           </a>
@@ -42,7 +35,7 @@ const Footer = () => {
           <a
             rel="noreferrer"
             target="_blank"
-            href="mailto:stephenadebanjo86@gmail.com"
+            href="mailto:abdulkafinirig5@gmail.com"
           >
             <Mail className="size-5 text-gray-700 hover:text-gray-600 cursor-pointer" />
           </a>
