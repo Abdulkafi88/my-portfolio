@@ -25,6 +25,7 @@ I’m actively seeking opportunities to gain hands on experience, collaborate on
             <li>Shipped real-world products (alarm apps, AI tools)</li>
             <li>3+ year experience in full-stack development</li>
             <li>Multiple software engineering internships</li>
+            <li>Proficient in Python, Java, JavaScript, React, Node.js, and more</li>
           </ul>
         </div>
       </div>
