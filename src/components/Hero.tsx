@@ -10,7 +10,7 @@ const Hero = () => {
       <section className="grid justify-center items-center text-center py-24 mt-6">
         <div className="inline-flex items-center justify-center">
           <Image
-            src="/img/profile-image.jpg"
+            src="/img/profile.png"
             className="rounded-full mt-6"
             alt="profile logo"
             width={114}
@@ -20,8 +20,8 @@ const Hero = () => {
 
         <div className="">
           <h1 className="font-bold md:leading-14 leading-8 md:text-[56px] text-[28px] mt-6">
-            Hi, I&apos;m Abdulkafi Nirig  .
-            <br /> Software Engineer
+            Hi, I&apos;m Abdulkafi Nirig,
+            <br /> A Software Engineer
           </h1>
           <h3 className="text-gray-600 mt-4 flex-wrap md:px-0 px-4">
             Turning Complex Problems Into Elegant Software

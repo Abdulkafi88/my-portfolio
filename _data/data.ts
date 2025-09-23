@@ -7,7 +7,7 @@ export const projects = [
   lang: ["HTML", "CSS", "JavaScript"],
   img: "E-F.png", 
   link: "https://abdulkafi88.github.io/sports-/", 
-  git: "https://github.com/Abdulkafi88/ef-site",
+  git: "https://github.com/Abdulkafi88/sports-",
   problem: "Parents, players, and coaches could not find schedules quickly and registration required slow email back and forth, which lowered turnout.",
   solution: "I built a single source of truth with mobile friendly schedule pages, a guided sign up form with validation, and auto routed email notifications, which reduced admin work and helped users finish in one visit."
 },
@@ -47,8 +47,8 @@ export const projects = [
     "GitHub"
   ],
   img: "CodeBook.png",
-  link: "https://abdulkafi88.github.io/CodeBook/",
-  git: "https://github.com/Abdulkafi88/CodeBook",
+  link: "https://abdulkafi88.github.io/E-books/",
+  git: "https://github.com/Abdulkafi88/E-books",
   problem: "Finding and saving eBooks across devices can be inconvenient without a central account system.",
   solution: "I built CodeBook to let users securely log in with Firebase, browse and purchase books, and maintain a synced personal library stored in Firestore so favorites are always available."
 }
