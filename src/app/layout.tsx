@@ -12,28 +12,33 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://myportfoliome.vercel.app"),
+  metadataBase: new URL("https://abdulkafinirig.com"),
   title: "Abdulkafi Nirig | Software Engineer",
   description:
-    "Self-taught software engineer and entrepreneur, specializing in Frontend, Backend, Full-stack development with Next.js, JavaScript, and TypeScript. As the founder of StartupFounder, a platform connecting developers and showcasing startups, I'm is dedicated to fostering innovation and community within the tech industry.",
+    "Computer Science student at the University of Washington and aspiring Software Engineer. Experienced in Python, Java, JavaScript, React, Node.js, and cloud platforms. Passionate about building scalable full stack applications, exploring machine learning and AI, and creating technology that drives positive impact.",
   keywords: [
-    "Self-taught",
+    "Abdulkafi Nirig",
     "Software Engineer",
+    "Computer Science",
     "Web Development",
-    "Entrepreneur",
     "Backend",
     "Full-stack",
-    "Frontend developer",
+    "Frontend Developer",
     "Next.js",
     "JavaScript",
     "TypeScript",
-    "Tech innovation",
-    "Community building",
-    "Adebanjo Stephen",
+    "Python",
+    "Java",
+    "Machine Learning",
+    "AI",
+    "Cloud Computing",
+    "Tech Innovation",
+    "Community Building",
+    "Seattle Developer",
   ],
-  authors: [{ name: "Adebanjo Stephen" }],
-  creator: "Adebanjo Stephen",
-  publisher: "Adebanjo Stephen",
+  authors: [{ name: "Abdulkafi Nirig" }],
+  creator: "Abdulkafi Nirig",
+  publisher: "Abdulkafi Nirig",
   formatDetection: { email: false, address: false, telephone: false },
   icons: {
     icon: "/profile-image.jpg",
@@ -43,27 +48,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://myportfoliome.vercel.app",
-    siteName: "Adebanjo Stephen Portfolio",
-    title: "Adebanjo Stephen | Software Engineer",
+    url: "https://abdulkafinirig.com",
+    siteName: "Abdulkafi Nirig Portfolio",
+    title: "Abdulkafi Nirig | Software Engineer",
     description:
-      "Self-taught software engineer and entrepreneur, specializing in Frontend, Backend, Full-stack development with Next.js, JavaScript, and TypeScript. As the founder of StartupFounder, a platform connecting developers and showcasing startups, I'm is dedicated to fostering innovation and community within the tech industry.",
+      "Computer Science student at the University of Washington and aspiring Software Engineer. Experienced in Python, Java, JavaScript, React, Node.js, and cloud platforms. Passionate about building scalable full stack applications, exploring machine learning and AI, and creating technology that drives positive impact.",
     images: [
       {
-        url: "https://myportfoliome.vercel.app/img/profile-pic.jpg",
+        url: "https://abdulkafinirig.com/img/profile-pic.jpg",
         width: 1200,
         height: 630,
-        alt: "Adebanjo Stephen | Software Engineer",
+        alt: "Abdulkafi Nirig | Software Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adebanjo Stephen | Software Engineer",
+    title: "Abdulkafi Nirig | Software Engineer",
     description:
-      "Self-taught software engineer and entrepreneur, specializing in Frontend, Backend, Full-stack development with Next.js, JavaScript, and TypeScript.",
-    creator: "@AdebanjoSt63916",
-    images: ["https://myportfoliome.vercel.app/img/profile-pic.jpg"],
+      "Computer Science student at the University of Washington and aspiring Software Engineer. Experienced in Python, Java, JavaScript, React, Node.js, and cloud platforms.",
+    creator: "@AbdulkafiNirig",
+    images: ["https://abdulkafinirig.com/img/profile-pic.jpg"],
   },
   robots: {
     index: true,
@@ -77,13 +82,13 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google -verification-code",
+    google: "your-google-verification-code",
   },
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Adebanjo Stephen Olumide",
+    title: "Abdulkafi Nirig",
   },
 };
 
@@ -93,17 +98,17 @@ export const metadata: Metadata = {
     __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Adebanjo Stephen",
-      url: "https://myportfoliome.vercel.app",
-      image: "https://myportfoliome.vercel.app/img/profile-pic.jpg",
+      name: "Abdulkafi Nirig",
+      url: "https://abdulkafinirig.com",
+      image: "https://abdulkafinirig.com/img/profile-pic.jpg",
       sameAs: [
-        "https://github.com/SteeveSticks",
-        "https://x.com/AdebanjoSt63916",
+        "https://github.com/Abdulkafi88",
+        "https://x.com/AbdulkafiNirig",
       ],
       jobTitle: "Software Engineer",
       worksFor: {
         "@type": "Organization",
-        name: "StartupFounder",
+        name: "Personal Projects",
       },
     }),
   }}

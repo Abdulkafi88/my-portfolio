@@ -13,11 +13,18 @@ const About = () => {
         <div className="">
           <div className="font-bold text-3xl text-black/90">About</div>
           <p>
-            I&apos;I am a software engineer driven by a passion for building scalable and impactful technology. My experience spans multiple programming languages, frameworks, and cloud platforms, allowing me to design and deliver full stack applications that are both efficient and maintainable. I thrive on transforming complex business requirements into clean, well architected solutions that balance performance, security, and user experience. Whether developing new features, optimizing system performance, or collaborating with cross functional teams, I approach every challenge with curiosity and a commitment to continuous improvement. My goal is to create software that not only meets technical specifications but also empowers users and drives meaningful results for organizations.
+            I&apos;m Abdulkafi Nirig, a Computer Science student at the University of Washington  and an aspiring Software Engineer with a strong passion for creating technology that truly makes an impact. My journey from Yemen to Seattle taught me resilience, adaptability, and the value of consistent effort, shaping both my personal growth and my approach to problem solving.
+
+Through internships and projects, I’ve gained experience with Python, Java, JavaScript, React, Node.js, MongoDB, and cloud technologies, building everything from community websites to feature rich messaging applications. I love turning ideas into functional, user friendly products and continuously expanding my skills in areas like machine learning and AI.
+
+I’m a naturally curious and active person who enjoys taking on new challenges, whether it’s improving a coding project, exploring a new sport, or learning a new language. I play basketball and soccer, and I speak Arabic, Somali, and English, while currently learning Spanish and Japanese.
+
+I’m actively seeking opportunities to gain hands on experience, collaborate on meaningful products, and grow as an engineer. With a collaborative mindset and a dedication to continuous learning, I’m confident I can contribute to building technology that empowers people and drives positive change.
             </p>
           <ul className="list-disc mt-3 text-gray-700">
             <li>Shipped real-world products (alarm apps, AI tools)</li>
             <li>3+ year experience in full-stack development</li>
+            <li>Multiple software engineering internships</li>
           </ul>
         </div>
       </div>
