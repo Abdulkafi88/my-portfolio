@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   publisher: "Abdulkafi Nirig",
   formatDetection: { email: false, address: false, telephone: false },
   icons: {
-    icon: "/profile-image.jpg",
-    shortcut: "/profile-image.jpg",
-    apple: "/profile-image.jpg",
+    icon: "/img/me.jpg",
+    shortcut: "/img/me.jpg",
+    apple: "/img/me.jpg",
   },
   openGraph: {
     type: "website",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
       "Computer Science student at the University of Washington and aspiring Software Engineer. Experienced in Python, Java, JavaScript, React, Node.js, and cloud platforms. Passionate about building scalable full stack applications, exploring machine learning and AI, and creating technology that drives positive impact.",
     images: [
       {
-        url: "https://abdulkafinirig.com/img/profile-pic.jpg",
+        url: "https://abdulkafinirig.com/img/me.jpg",
         width: 1200,
         height: 630,
         alt: "Abdulkafi Nirig | Software Engineer",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     description:
       "Computer Science student at the University of Washington and aspiring Software Engineer. Experienced in Python, Java, JavaScript, React, Node.js, and cloud platforms.",
     creator: "@AbdulkafiNirig",
-    images: ["https://abdulkafinirig.com/img/profile-pic.jpg"],
+    images: ["https://abdulkafinirig.com/img/me.jpg"],
   },
   robots: {
     index: true,
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
       "@type": "Person",
       name: "Abdulkafi Nirig",
       url: "https://abdulkafinirig.com",
-      image: "https://abdulkafinirig.com/img/profile-pic.jpg",
+      image: "https://abdulkafinirig.com/img/me.jpg",
       sameAs: [
         "https://github.com/Abdulkafi88",
         "https://x.com/AbdulkafiNirig",
