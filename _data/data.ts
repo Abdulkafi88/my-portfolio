@@ -51,5 +51,28 @@ export const projects = [
   git: "https://github.com/Abdulkafi88/E-books",
   problem: "Finding and saving eBooks across devices can be inconvenient without a central account system.",
   solution: "I built CodeBook to let users securely log in with Firebase, browse and purchase books, and maintain a synced personal library stored in Firestore so favorites are always available."
+},
+  
+{
+  name: "JobSync",
+  slug: "ai-resume-analyzer",
+  show: "Built with React and Tailwind, provides an AI-powered platform where users can analyze their resume against job descriptions to get match scores, skill gaps, and personalized recommendations",
+  desc: "AI Job Description Analyzer is a smart web application that helps job seekers optimize their resumes using Google Gemini 2.5 Flash AI. Users paste a job description and their resume (or upload a PDF), then receive instant analysis including match scores, key skills identification, missing keywords, and actionable improvement suggestions. Built with React.js, TypeScript, Tailwind CSS, and Lovable Cloud (Supabase) for serverless AI processing.",
+  lang: [
+    "React.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Google Gemini AI",
+    "Supabase Edge Functions",
+    "PDF.js",
+    "Vite",
+    "shadcn/ui"
+  ],
+  img: "JobSync.png",
+  link: "https://abdulkafi88.github.io/JobSync/", 
+  git: "https://github.com/Abdulkafi88/JobSync", 
+  problem: "Job seekers struggle to tailor their resumes to specific job descriptions and often miss critical keywords that applicant tracking systems (ATS) look for, leading to missed opportunities.",
+  solution: "I built this AI-powered analyzer to instantly evaluate resumes against job descriptions using Google Gemini 2.5 Flash LLM. It provides a match score, identifies key skills, highlights missing keywords, and offers personalized improvement suggestions—helping users optimize their applications and increase their chances of getting interviews."
 }
+  
 ];
