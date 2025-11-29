@@ -43,7 +43,7 @@ const About = () => {
               className="rounded-sm bg-white w-full max-w-[200px]"
             />
             <span className="text-sm block text-center mt-1 text-gray-800">
-              @AbdulfafiNirig
+              @AbdulkafiNirig
             </span>
           </motion.div>
         </div>
